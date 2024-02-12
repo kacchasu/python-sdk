@@ -1,0 +1,8 @@
+setup.py
+backend-python-sdk/__init__.py
+backend-python-sdk/clickstream_sender.py
+my_python_sdk.egg-info/PKG-INFO
+my_python_sdk.egg-info/SOURCES.txt
+my_python_sdk.egg-info/dependency_links.txt
+my_python_sdk.egg-info/requires.txt
+my_python_sdk.egg-info/top_level.txt

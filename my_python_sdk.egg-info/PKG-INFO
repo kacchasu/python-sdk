@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: my-python-sdk
+Version: 0.1.0
+Summary: SDK for collecting events and sending them to a server
+Author: me
+Requires-Python: >=3.6
+Requires-Dist: aiohttp>=3.7.4
+Requires-Dist: asyncio
+Requires-Dist: APScheduler
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
