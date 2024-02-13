@@ -1,4 +1,4 @@
-from request_bean import RequestBean
+from ..entities.request_bean import RequestBean
 
 
 class ClickstreamValidationException(Exception):
@@ -9,7 +9,7 @@ class JsonRequestBodyException(Exception):
     pass
 
 
-class RequestServiceImpl:
+class RequestService:
     def __init__(self, request_processor, settings, request_repository, url="UNKNOWN", max_retry_count=0):
         self.request_processor = request_processor
         self.settings = settings
